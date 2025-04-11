@@ -23,7 +23,7 @@ import java.util.Locale;
 public class PrinterSDK {
 
 
-    public static void init(Context context) {
+    public static void init(Context context,InitCallBack callBack) {
         new AsyncTask<Void, Void, String>() {
             protected String doInBackground(Void... params) {
                 ActivityManager mActivityManager = (ActivityManager) context.getSystemService(context.ACTIVITY_SERVICE);
@@ -43,10 +43,12 @@ public class PrinterSDK {
                     @Override
                     public void sdkInitSuccessed() {
                         Log.d("PrinterSDK", "sdkInitSuccessed");
+                        callBack.onSuccess();
                     }
                     @Override
                     public void sdkInitFailed() {
                         Log.d("PrinterSDK", "sdkInitFailed");
+                        callBack.onFailure();
                     }
                 });
                 return null;
