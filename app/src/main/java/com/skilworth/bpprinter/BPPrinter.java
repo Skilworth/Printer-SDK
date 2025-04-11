@@ -18,118 +18,118 @@ public class BPPrinter {
 
         public BPPrinter() { /* compiled code */ }
 
-        public static void setContext(android.content.Context context) { setContext(context); }
+        public static void setContext(android.content.Context context) { com.vanstone.trans.api.PrinterApi.setContext(context); }
 
-        public static int printEnd_Api() { return printEnd_Api(); }
+        public static int printEnd_Api() { return com.vanstone.trans.api.PrinterApi.printEnd_Api(); }
 
-        public static int printQueryStatus_Api() { return printQueryStatus_Api(); }
+        public static int printQueryStatus_Api() { return com.vanstone.trans.api.PrinterApi.printQueryStatus_Api(); }
 
-        public static void printAddBarCode_Api(int align, int width, int height, boolean isShowtext, String barcode, String code) { printAddBarCode_Api(align, width, height, isShowtext, barcode, code); }
+        public static void printAddBarCode_Api(int align, int width, int height, boolean isShowtext, String barcode, String code) { com.vanstone.trans.api.PrinterApi.printAddBarCode_Api(align, width, height, isShowtext, barcode, code); }
 
-        public static int printPaperFeed_Api(int pixel) { return printPaperFeed_Api(pixel); }
+        public static int printPaperFeed_Api(int pixel) { return com.vanstone.trans.api.PrinterApi.printPaperFeed_Api(pixel); }
 
-        public static int printSetTextSize_Api(int textSize) { return printSetTextSize_Api(textSize); }
+        public static int printSetTextSize_Api(int textSize) { return com.vanstone.trans.api.PrinterApi.printSetTextSize_Api(textSize); }
 
-        public static void printSetBlodText_Api(boolean isBold) { printSetBlodText_Api(isBold); }
+        public static void printSetBlodText_Api(boolean isBold) { com.vanstone.trans.api.PrinterApi.printSetBlodText_Api(isBold); }
 
-        public static int printGetTextSize_Api() { return printGetTextSize_Api(); }
+        public static int printGetTextSize_Api() { return com.vanstone.trans.api.PrinterApi.printGetTextSize_Api(); }
 
-        public static void printSetLineThrough_Api(boolean isLineThrough) { printSetLineThrough_Api(isLineThrough); }
+        public static void printSetLineThrough_Api(boolean isLineThrough) { com.vanstone.trans.api.PrinterApi.printSetLineThrough_Api(isLineThrough); }
 
-        public static void printSetItalic_Api(float value) { printSetItalic_Api(value); }
+        public static void printSetItalic_Api(float value) { com.vanstone.trans.api.PrinterApi.printSetItalic_Api(value); }
 
-        public static void printSetAlign_Api(int value) { printSetAlign_Api(value); }
+        public static void printSetAlign_Api(int value) { com.vanstone.trans.api.PrinterApi.printSetAlign_Api(value); }
 
-        public static void printSetGray_Api(int gray) { printSetGray_Api(gray); }
+        public static void printSetGray_Api(int gray) { com.vanstone.trans.api.PrinterApi.printSetGray_Api(gray); }
 
-        public static void printSetInvert_Api(boolean isInvert) { printSetInvert_Api(isInvert); }
+        public static void printSetInvert_Api(boolean isInvert) { com.vanstone.trans.api.PrinterApi.printSetInvert_Api(isInvert); }
 
-        public static void PrnSetParams_Api(android.os.Bundle bundle) { PrnSetParams_Api(bundle); }
+        public static void PrnSetParams_Api(android.os.Bundle bundle) { com.vanstone.trans.api.PrinterApi.PrnSetParams_Api(bundle); }
 
-        public static void printAddText_Api(int font, int align, String text) { printAddText_Api(font, align, text); }
+        public static void printAddText_Api(int font, int align, String text) { com.vanstone.trans.api.PrinterApi.printAddText_Api(font, align, text); }
 
         public static void printAddBarCode_Api(int align, int width, int height, boolean isShowtext, String barcode) { com.vanstone.trans.api.PrinterApi.printAddBarCode_Api(align, width, height, isShowtext, barcode); }
 
         public static void printAddBarCode_Api(int align, int width, int height, String barcode) { com.vanstone.trans.api.PrinterApi.printAddBarCode_Api(align, width, height, barcode); }
 
-        public static void printAddQrCode_Api(int align, int height, String qrCode) {  printAddQrCode_Api(align, height, qrCode); }
+        public static void printAddQrCode_Api(int align, int height, String qrCode) {  com.vanstone.trans.api.PrinterApi.printAddQrCode_Api(align, height, qrCode); }
 
-        public static void printAddImage_Api(int offset, int width, int height, byte[] imageData) { printAddImage_Api(offset, width, height, imageData); }
+        public static void printAddImage_Api(int offset, int width, int height, byte[] imageData) { com.vanstone.trans.api.PrinterApi.printAddImage_Api(offset, width, height, imageData); }
 
-        public static void printFeedLine_Api(int lines) { printFeedLine_Api(lines); }
+        public static void printFeedLine_Api(int lines) { com.vanstone.trans.api.PrinterApi.printFeedLine_Api(lines); }
 
-        public static void printStartPrint_Api() { printStartPrint_Api(); }
+        public static void printStartPrint_Api() { com.vanstone.trans.api.PrinterApi.printStartPrint_Api(); }
 
-        public static int PrnStep_Api(int pixel) { return PrnStep_Api(pixel); }
+        public static int PrnStep_Api(int pixel) { return com.vanstone.trans.api.PrinterApi.PrnStep_Api(pixel); }
 
-        public static int PrnStatus_Api(android.content.Context context) { return PrnStatus_Api(context); }
+        public static int PrnStatus_Api(android.content.Context context) { return com.vanstone.trans.api.PrinterApi.PrnStatus_Api(context); }
 
         public static int PrnStatus_Api() { return com.vanstone.trans.api.PrinterApi.PrnStatus_Api(); }
 
-        public static void PrnClrBuff_Api() { PrnClrBuff_Api(); }
+        public static void PrnClrBuff_Api() { com.vanstone.trans.api.PrinterApi.PrnClrBuff_Api(); }
 
-        public static void PrnLeftIndSet_Api(short usLeftIndent) { PrnLeftIndSet_Api(usLeftIndent); }
+        public static void PrnLeftIndSet_Api(short usLeftIndent) { com.vanstone.trans.api.PrinterApi.PrnLeftIndSet_Api(usLeftIndent); }
 
-        public static void PrnLineSpaceSet_Api(short ucLineSpace, int ucCharSpace) { PrnLineSpaceSet_Api(ucLineSpace, ucCharSpace); }
+        public static void PrnLineSpaceSet_Api(short ucLineSpace, int ucCharSpace) { com.vanstone.trans.api.PrinterApi.PrnLineSpaceSet_Api(ucLineSpace, ucCharSpace); }
 
-        public static void PrnSpeedSet_Api(int ucSpeed) { PrnSpeedSet_Api(ucSpeed); }
+        public static void PrnSpeedSet_Api(int ucSpeed) { com.vanstone.trans.api.PrinterApi.PrnSpeedSet_Api(ucSpeed); }
 
-        public static void PrnFontSet_Api(int Ascii, int CFont, int Zoom) { PrnFontSet_Api(Ascii, CFont, Zoom); }
+        public static void PrnFontSet_Api(int Ascii, int CFont, int Zoom) { com.vanstone.trans.api.PrinterApi.PrnFontSet_Api(Ascii, CFont, Zoom); }
 
-        public static void PrnHTSet_Api(int HT) { PrnHTSet_Api(HT); }
+        public static void PrnHTSet_Api(int HT) { com.vanstone.trans.api.PrinterApi.PrnHTSet_Api(HT); }
 
-        public static int PrnStr_Api(String strIn) { return PrnStr_Api(strIn); }
+        public static int PrnStr_Api(String strIn) { return com.vanstone.trans.api.PrinterApi.PrnStr_Api(strIn); }
 
-        public static int PrnCheckPrnData_Api() { return PrnCheckPrnData_Api(); }
+        public static int PrnCheckPrnData_Api() { return com.vanstone.trans.api.PrinterApi.PrnCheckPrnData_Api(); }
 
-        public static int PrnStart_Api() { return PrnStart_Api(); }
+        public static int PrnStart_Api() { return com.vanstone.trans.api.PrinterApi.PrnStart_Api(); }
 
-        public static int GetPrintState() { return GetPrintState(); }
+        public static int GetPrintState() { return com.vanstone.trans.api.PrinterApi.GetPrintState(); }
 
-        public static int PrnLogo_Api(byte[] Logo, int ArorFnFlag) { return PrnLogo_Api(Logo, ArorFnFlag); }
+        public static int PrnLogo_Api(byte[] Logo, int ArorFnFlag) { return com.vanstone.trans.api.PrinterApi.PrnLogo_Api(Logo, ArorFnFlag); }
 
-        public static int PrnLogo_Api(android.graphics.Bitmap bitmap) { return PrnLogo_Api(bitmap); }
+        public static int PrnLogo_Api(android.graphics.Bitmap bitmap) { return com.vanstone.trans.api.PrinterApi.PrnLogo_Api(bitmap); }
 
-        public static int PrnSetGray_Api(int Gray) { return PrnSetGray_Api(Gray); }
+        public static int PrnSetGray_Api(int Gray) { return com.vanstone.trans.api.PrinterApi.PrnSetGray_Api(Gray); }
 
         public static void SetLang_Api(int lang, int encodeType) { SetLang_Api(lang, encodeType); }
 
-        public static int GetLang_Api() { return GetLang_Api(); }
+        public static int GetLang_Api() { return com.vanstone.trans.api.PrinterApi.GetLang_Api(); }
 
-        public static int PrnSetFont_Api(int font, int style) { return PrnSetFont_Api(font, style); }
-
-        /**
-         * @deprecated
-         */
-        public static void PrnLessen_Api(boolean b) {  PrnLessen_Api(b); }
+        public static int PrnSetFont_Api(int font, int style) { return com.vanstone.trans.api.PrinterApi.PrnSetFont_Api(font, style); }
 
         /**
          * @deprecated
          */
-        public static void PrnZoom_Api(boolean b) { PrnZoom_Api(b); }
+        public static void PrnLessen_Api(boolean b) {  com.vanstone.trans.api.PrinterApi.PrnLessen_Api(b); }
 
         /**
          * @deprecated
          */
-        public static void PrnHTSet_Api(boolean b) { PrnHTSet_Api(b); }
+        public static void PrnZoom_Api(boolean b) { com.vanstone.trans.api.PrinterApi.PrnZoom_Api(b); }
 
-        public static int PrnOpen_Api(String str, android.content.Context context) { return PrnOpen_Api(str, context); }
+        /**
+         * @deprecated
+         */
+        public static void PrnHTSet_Api(boolean b) { com.vanstone.trans.api.PrinterApi.PrnHTSet_Api(b); }
 
-        public static void PrnClose_Api() { PrnClose_Api(); }
+        public static int PrnOpen_Api(String str, android.content.Context context) { return com.vanstone.trans.api.PrinterApi.PrnOpen_Api(str, context); }
 
-        public static void PrnCut_Api() { PrnCut_Api(); }
+        public static void PrnClose_Api() { com.vanstone.trans.api.PrinterApi.PrnClose_Api(); }
 
-        public static int PrnStr_Api(byte[] buf) { return PrnStr_Api(buf); }
+        public static void PrnCut_Api() { com.vanstone.trans.api.PrinterApi.PrnCut_Api(); }
 
-        public static int setFontName_Api(String fontPath) { return setFontName_Api(fontPath); }
+        public static int PrnStr_Api(byte[] buf) { return com.vanstone.trans.api.PrinterApi.PrnStr_Api(buf); }
 
-        public static void PrnFontSet_Api(android.content.res.AssetManager assets, String fontName) { PrnFontSet_Api(assets, fontName); }
+        public static int setFontName_Api(String fontPath) { return com.vanstone.trans.api.PrinterApi.setFontName_Api(fontPath); }
 
-        public static void PrnReleaseModule_Api() { PrnReleaseModule_Api(); }
+        public static void PrnFontSet_Api(android.content.res.AssetManager assets, String fontName) { com.vanstone.trans.api.PrinterApi.PrnFontSet_Api(assets, fontName); }
 
-        public static int PrnSelectModule_Api(String moduleName, android.os.Bundle param) { return PrnSelectModule_Api(moduleName, param); }
+        public static void PrnReleaseModule_Api() { com.vanstone.trans.api.PrinterApi.PrnReleaseModule_Api(); }
 
-        public static String[] PrnGetSupportModule_Api() { return PrnGetSupportModule_Api(); }
+        public static int PrnSelectModule_Api(String moduleName, android.os.Bundle param) { return com.vanstone.trans.api.PrinterApi.PrnSelectModule_Api(moduleName, param); }
 
-        public static android.os.Bundle PrnGetModuleInfo_Api() { return PrnGetModuleInfo_Api(); }
+        public static String[] PrnGetSupportModule_Api() { return com.vanstone.trans.api.PrinterApi.PrnGetSupportModule_Api(); }
+
+        public static android.os.Bundle PrnGetModuleInfo_Api() { return com.vanstone.trans.api.PrinterApi.PrnGetModuleInfo_Api(); }
     }
