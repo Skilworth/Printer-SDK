@@ -1,0 +1,54 @@
+plugins {
+   // id 'com.android.application'
+    id 'com.android.library'
+    id 'maven-publish'
+}
+
+android {
+    namespace 'com.skilworth.bpprinter'
+    compileSdk 33
+
+    defaultConfig {
+      //  applicationId 'com.skilworth.bpprinter'
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.1"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+publishing {
+    publications {
+        release(MavenPublication) {
+
+            groupId = 'bijlipay' // Replace with your GitHub username
+            artifactId = 'PrinterSDk' // Replace with your library name
+            version = '1.0.1' // Versioning
+
+            afterEvaluate {
+                from components.release
+            }
+        }
+    }
+}
+
+dependencies {
+
+    implementation files('libs/vanstoneSdkClient-noemv_20220114.jar')
+    implementation files('libs/AppSdkAidl_buildBy_20220217.jar')
+
+}
+
