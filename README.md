@@ -44,10 +44,22 @@ To use the PrinterSDK library, you need to initialize it in your application or 
 ```kotlin
 import com.skilworth.bpprinter.PrinterSDK
 
-PrinterSDK.init(context)
+PrinterSDK.init(context, new InitCallback() {
+    @Override
+    public void onSuccess() {
+        Log.d("ClientApp", "Printer SDK Initialized successfully!");
+    }
+
+    @Override
+    public void onFailure() {
+        Log.d("ClientApp", "Printer SDK Initialization failed.");
+    }
+});
 ```
 
 ### Example: Printing Text
+
+You can only print after receiving a successful response from the init API; otherwise, you will get an exception.
 
 ```kotlin
 BPPrinter.PrnStr_Api("Bijlipay");
